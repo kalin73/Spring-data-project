@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.assignment.project.entities.Task;
+import com.assignment.project.models.Task;
 import com.assignment.project.repositories.TaskRepository;
 
 @Service

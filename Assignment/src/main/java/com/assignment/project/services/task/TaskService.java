@@ -2,7 +2,7 @@ package com.assignment.project.services.task;
 
 import java.util.List;
 
-import com.assignment.project.entities.Task;
+import com.assignment.project.models.Task;
 
 public interface TaskService {
 	void createTask(Task task);

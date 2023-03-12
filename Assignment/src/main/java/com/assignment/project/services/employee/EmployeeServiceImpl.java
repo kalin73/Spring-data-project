@@ -3,8 +3,8 @@ package com.assignment.project.services.employee;
 import java.util.List;
 import org.springframework.stereotype.Service;
 
-import com.assignment.project.entities.Department;
-import com.assignment.project.entities.Employee;
+import com.assignment.project.models.Department;
+import com.assignment.project.models.Employee;
 import com.assignment.project.repositories.EmployeeRepository;
 
 @Service

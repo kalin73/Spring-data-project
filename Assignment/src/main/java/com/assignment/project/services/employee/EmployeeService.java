@@ -2,8 +2,8 @@ package com.assignment.project.services.employee;
 
 import java.util.List;
 
-import com.assignment.project.entities.Department;
-import com.assignment.project.entities.Employee;
+import com.assignment.project.models.Department;
+import com.assignment.project.models.Employee;
 
 public interface EmployeeService {
 	List<Employee> getAllEmployees();

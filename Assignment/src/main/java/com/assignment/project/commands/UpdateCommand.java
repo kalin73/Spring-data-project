@@ -4,9 +4,9 @@ import static com.assignment.project.constants.ConstantMessages.*;
 
 import java.time.LocalDate;
 
-import com.assignment.project.entities.Department;
-import com.assignment.project.entities.Employee;
-import com.assignment.project.entities.Task;
+import com.assignment.project.models.Department;
+import com.assignment.project.models.Employee;
+import com.assignment.project.models.Task;
 import com.assignment.project.services.department.DepartmentService;
 import com.assignment.project.services.employee.EmployeeService;
 import com.assignment.project.services.task.TaskService;

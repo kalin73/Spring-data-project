@@ -5,7 +5,7 @@ import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.assignment.project.entities.Task;
+import com.assignment.project.models.Task;
 
 public interface TaskRepository extends JpaRepository<Task, Long> {
 	List<Task> findByAssigneeId(Long id);

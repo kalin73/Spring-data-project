@@ -1,4 +1,4 @@
-package com.assignment.project.entities;
+package com.assignment.project.models;
 
 import static com.assignment.project.constants.ConstantMessages.*;
 

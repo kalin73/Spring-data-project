@@ -2,7 +2,7 @@ package com.assignment.project.commands;
 
 import static com.assignment.project.constants.ConstantMessages.*;
 
-import com.assignment.project.entities.Employee;
+import com.assignment.project.models.Employee;
 import com.assignment.project.services.department.DepartmentService;
 import com.assignment.project.services.employee.EmployeeService;
 import com.assignment.project.services.task.TaskService;

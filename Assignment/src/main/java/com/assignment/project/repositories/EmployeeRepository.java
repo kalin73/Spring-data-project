@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.assignment.project.entities.Department;
-import com.assignment.project.entities.Employee;
+import com.assignment.project.models.Department;
+import com.assignment.project.models.Employee;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 	Employee getAllById(Long id);
